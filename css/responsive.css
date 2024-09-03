@@ -1,0 +1,481 @@
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (min-width: 320px) and (max-width: 575px) { 
+
+    .title h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: #000;
+    }
+
+    .banner {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .inner-banner {
+        width: 100%;
+        padding: 20px 0px;
+    }
+ 
+    .inner-banner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: #ffff;
+ 
+}
+ .inner-button {
+    width: 100%;
+    padding: 10px 0px 0px;
+ 
+}
+.inner-button .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin: 0px 15px 0px 0px;
+}
+ 
+.feature {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.feature .inner-feature {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.about-long {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    border: 1px solid #eee;
+}
+.about-sort .inner-about-sort .title h1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.about-sort {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    background: #f2f2f2;
+
+
+}
+.testimonial {
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/banner2.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pricing{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+
+.pricing-table .price-head {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #878787;
+
+}
+.pricing-table .main-price {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #878787
+
+
+}
+
+.price-content {
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+.contact {
+    width: 100%;
+    padding: 40px 0px 0px;
+    background: #ededed;
+}
+
+.contact .inner-contact {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+
+
+}
+
+.contact-form {
+    width: 100%;
+    padding: 40px 25px 10px;
+    background: #15141a;
+    position: relative;
+    z-index: 1;
+
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+
+
+}
+
+.main-footer {
+    padding: 40px 10px;
+    background: #000;
+}
+
+
+
+}
+ /* // Small devices (landscape phones, 576px and up) */
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    .header{
+        width: 100%;
+        background: url(../images/banner.png) center top no-repeat;
+        background-position: cover;
+    }
+    .title h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: #000;
+    }
+    .banner {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .inner-banner {
+        width: 100%;
+        padding: 20px 0px;
+    }
+ 
+    .inner-banner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: #ffff;
+ 
+}
+ 
+.inner-button {
+    width: 100%;
+    padding: 10px 0px 0px;
+ 
+}
+.inner-button .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin: 0px 15px 0px 0px;
+}
+ 
+.feature {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+.feature .inner-feature {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+.about-long {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    border: 1px solid #eee;
+}
+.about-sort {
+    text-align: center;
+    width: 100%;
+    padding: 40px 0px;
+    background: #f2f2f2;
+
+
+}
+.about-sort .inner-about-sort .title h1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.testimonial {
+    width: 100%;
+    padding: 40px 0px;
+    background: url(../images/banner2.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pricing{
+    width: 100%;
+    padding: 40px 0px;
+    text-align: center;
+}
+
+
+.pricing-table .price-head {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #878787;
+
+}
+.pricing-table .main-price {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #878787
+
+
+}
+
+.price-content {
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+.contact {
+    width: 100%;
+    padding: 40px 0px 0px;
+    background: #ededed;
+}
+
+.contact .inner-contact {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+
+
+}
+
+.contact-form {
+    width: 100%;
+    padding: 40px 25px 10px;
+    background: #15141a;
+    position: relative;
+    z-index: 1;
+
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+
+
+}
+
+.main-footer {
+    padding: 40px 10px;
+    background: #000;
+}
+
+
+
+
+ 
+ }
+ 
+ /* // Medium devices (tablets, 768px and up) */
+ @media (min-width: 768px) and (max-width: 991px) {
+ 
+    /* header start */
+ 
+    .header{
+        width: 100%;
+        background: url(../images/banner.png) center top no-repeat;
+        background-position: cover;
+    }
+    .title h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 2px;
+        color: #000;
+    }
+    .inner-banner {
+        width: 100%;
+        padding: 20px 0px;
+    }
+ 
+    .inner-banner h1 {
+        font-size: 25px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 2px;
+        color: #ffff;
+ 
+}
+.inner-button {
+    width: 100%;
+    padding: 10px 0px 0px;
+ 
+}
+.inner-button .btn-primary {
+    padding: 15px 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 2px;
+    letter-spacing: 2px;
+    color: #fff;
+    background: #008ed6;
+    border: 1px solid #008ed6;
+    margin: 0px 15px 0px 0px;
+}
+ 
+.feature {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+.feature .inner-feature {
+    width: 100%;
+    padding: 20px 0px;
+}
+
+
+.about-long {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+    border: 1px solid #eee;
+}
+.about-sort {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+    background: #f2f2f2;
+
+
+}
+.about-sort .inner-about-sort .title h1 {
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 46px;
+    letter-spacing: 2px;
+    color: #000;
+}
+
+.testimonial {
+    width: 100%;
+    padding: 80px 0px;
+    background: url(../images/banner2.png) center top no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+.pricing{
+    width: 100%;
+    padding: 80px 0px;
+    text-align: center;
+}
+
+
+.pricing-table .price-head {
+    width: 100%;
+    padding: 10px 0px;
+    border-bottom: 1px solid #878787;
+
+}
+.pricing-table .main-price {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid #878787
+
+
+}
+
+.price-content {
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+.contact {
+    width: 100%;
+    padding: 80px 0px 0px;
+    background: #ededed;
+}
+
+.contact .inner-contact {
+    width: 100%;
+    padding: 15px 0px;
+    text-align: center;
+
+
+}
+
+.contact-form {
+    width: 100%;
+    padding: 80px 25px 10px;
+    background: #15141a;
+    position: relative;
+    z-index: 1;
+
+}
+.footer {
+    text-align: center;
+    width: 100%;
+    padding: 80px 0px;
+
+
+}
+
+.main-footer {
+    padding: 80px 10px;
+    background: #000;
+}
+
+
+
+
+ 
+   }
+ 
+ 
+ /* // Large devices (desktops, 992px and up) */
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+   
+   
+   }
+ 
+ 
+ /* // Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) and (max-width: 1399px){  }
+ 
+ 
+ 
+ /* // Extra extra  large devices (large desktops, 1400px and up) */
+ @media (min-width: 1400px) { 
+   
+  }
+ 
